@@ -31,3 +31,104 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menu li{
+  padding: 10px 30px;
+}
+
+.appka{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #25133d;
+}
+
+.pozadi img{
+  position: relative;
+}
+
+.telefon img{
+  position: absolute;
+  left: 750px;
+  bottom: 120px;
+}
+
+.nazev{
+  font-size: 90px;
+  margin: 0;
+  position: absolute;
+  left: 220px;
+  bottom: 400px;
+  color: white;
+  font-weight: 400;
+}
+
+.slogan{
+  position: absolute;
+  margin: 0;
+  font-size: 35px;
+  font-weight: 100;
+  left: 220px;
+  bottom: 280px;
+  color: white;
+}
+
+.akce{
+  position: absolute;
+  bottom: 180px;
+  left: 170px;
+}
+
+.tlacitka{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.tlacitko{
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 30px;
+  margin: 0 10px;
+}
+
+.stahnout{
+  background-color: #48418e;
+}
+
+.detaily{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+h2{
+  color: #48418e;
+}
+
+.popis{
+  text-align: center;
+  padding: 20px;
+}
+
+.paticka{
+  background-color: #48418e;
+}
+
+.paticka p{
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
