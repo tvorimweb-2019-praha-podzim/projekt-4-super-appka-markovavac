@@ -54,46 +54,28 @@ a{
   color: #25133d;
 }
 
-.pozadi img{
-  position: relative;
-}
-
-.telefon img{
-  position: absolute;
-  left: 750px;
-  bottom: 120px;
-}
-
 .nazev{
   font-size: 90px;
   margin: 0;
-  position: absolute;
-  left: 220px;
-  bottom: 400px;
   color: white;
   font-weight: 400;
+  padding: 0 30px;
+  display: block;
 }
 
 .slogan{
-  position: absolute;
   margin: 0;
   font-size: 35px;
   font-weight: 100;
-  left: 220px;
-  bottom: 280px;
   color: white;
-}
-
-.akce{
-  position: absolute;
-  bottom: 180px;
-  left: 170px;
+  padding: 0 30px;
 }
 
 .tlacitka{
   display: flex;
   flex-direction: row;
   list-style: none;
+  padding: 0 30px;
 }
 
 .tlacitko{
@@ -101,7 +83,29 @@ a{
   border-radius: 5px;
   color: white;
   padding: 15px 30px;
-  margin: 0 10px;
+  margin-right: 20px;
+}
+
+.vizual{
+  background-image: url(images/pozadi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 960px; 
+  height: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.o-appce{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.telefon{
+  align-self: flex-end;
 }
 
 .stahnout{
